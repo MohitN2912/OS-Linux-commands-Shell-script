@@ -54,6 +54,7 @@ cat < file2
 cmp file1 file2
 ## OUTPUT
 ![file3](./img/file3.png)
+
 comm file1 file2
  ## OUTPUT
 ![file4](./img/file4.png)
