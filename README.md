@@ -165,33 +165,33 @@ Linux is best in this World
  ```
 egrep -w 'Hello|hello' newfile 
 ## OUTPUT
-
+![Alt text](img/file18.png)
 
 
 egrep -w '(H|h)ello' newfile 
 ## OUTPUT
-
+![Alt text](img/file19.png)
 
 
 egrep -w '(H|h)ell[a-z]' newfile 
 ## OUTPUT
-
+![Alt text](img/file20.png)
 
 
 
 egrep '(^hello)' newfile 
 ## OUTPUT
-
+![Alt text](img/file21.png)
 
 
 egrep '(world$)' newfile 
 ## OUTPUT
-
+![Alt text](img/file22.png)
 
 
 egrep '(World$)' newfile 
 ## OUTPUT
-
+![Alt text](img/file23.png)
 
 egrep '((W|w)orld$)' newfile 
 ## OUTPUT
