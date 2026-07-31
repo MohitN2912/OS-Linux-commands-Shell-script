@@ -373,7 +373,7 @@ cat urllist.txt | tr -d ' ' | tr -s '.'
 #Backup commands
 tar -cvf backup.tar *
 ## OUTPUT
-![Alt text](img/file51.png)
+
 
 mkdir backupdir
  
@@ -383,21 +383,19 @@ cd backupdir
  
 tar -tvf backup.tar
 ## OUTPUT
-![Alt text](img/file52.png)
+
 
 tar -xvf backup.tar
 ## OUTPUT
-![Alt text](img/file53.png)
 
 gzip backup.tar
 
 ls .gz
 ## OUTPUT
-![Alt text](img/file54.png) 
-
+ 
 gunzip backup.tar.gz
 ## OUTPUT
-![Alt text](img/file55.png)
+
  
 # Shell Script
 ```
