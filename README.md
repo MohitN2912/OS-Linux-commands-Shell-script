@@ -309,7 +309,9 @@ sed -n '2,4{s/^/$/;p}' file23
 
 
 sed -n '2,4{s/$/*/;p}' file23
+
 ![Alt text](img/file45.png)
+
 
 #Sorting File content
 cat > file21
