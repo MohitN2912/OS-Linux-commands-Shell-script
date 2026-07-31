@@ -324,7 +324,7 @@ cat > file21
 ``` 
 sort file21
 ## OUTPUT
-
+![Alt text](img/file46.png)
 
 cat > file22
 ```
@@ -337,13 +337,15 @@ cat > file22
 ``` 
 uniq file22
 ## OUTPUT
-
+![Alt text](img/file47.png)
 
 
 #Using tr command
 
 cat file23 | tr [:lower:] [:upper:]
  ## OUTPUT
+
+![Alt text](img/file48.png)
 
 cat < urllist.txt
 ```
@@ -360,12 +362,12 @@ www. mrcet.... com
  ```
 cat urllist.txt | tr -d ' '
  ## OUTPUT
-
+![Alt text](img/file49.png)
 
  
 cat urllist.txt | tr -d ' ' | tr -s '.'
 ## OUTPUT
-
+![Alt text](img/file50.png)
 
 
 #Backup commands
