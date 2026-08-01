@@ -407,7 +407,7 @@ echo 'echo Hello World‘; exit 0 >> my-script.sh
 chmod 755 my-script.sh
 ./my-script.sh
 ## OUTPUT
-
+![Alt text](img/file56.png)
  
 cat << stop > herecheck.txt
 ```
@@ -419,7 +419,7 @@ stop
 
 cat herecheck.txt
 ## OUTPUT
-
+![Alt text](img/file57.png)
 
 cat < scriptest.sh 
 ```bash
@@ -457,19 +457,23 @@ chmod 777 scriptest.sh
 ./scriptest.sh 1 2 3
 
 ## OUTPUT
-
+![Alt text](img/file58.png)
  
 ls file1
 ## OUTPUT
+![Alt text](img/file59.png)
 
 echo $?
-## OUTPUT 
+## OUTPUT!
+[Alt text](img/file60.png) 
+
 ./one
 bash: ./one: Permission denied
  
 echo $?
 ## OUTPUT 
- 
+![Alt text](img/file61.png) 
+
 abcd
  
 echo $?
