@@ -1,0 +1,7 @@
+echo 'Visit beautiful cities'
+echo 'Visit beautiful cities'
+echo 'Visit beautiful cities'
+echo 'Visit beautiful cities'
+echo 'Visit beautiful cities'
+echo 'Visit beautiful cities'
+echo 'Visit beautiful cities'
